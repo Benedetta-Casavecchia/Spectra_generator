@@ -1,5 +1,21 @@
 #MAIN
 
+import numpy as np
+import vtk
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import matplotlib.colors as colors
+import array
+import yt
+import trident
+
+
+from vtk import vtkStructuredPointsReader
+from vtk.util import numpy_support as VN
+from matplotlib.colors import LogNorm
+
+from numpy.random import multivariate_normal
+
 simultype = ['', '-Al']
 #simultype = ['_turb', '2AlTurb']
 #simultype = ['_rad', '2-rad']
